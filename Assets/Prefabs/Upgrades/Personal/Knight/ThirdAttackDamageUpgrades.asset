@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f42224272e3764d8021f8155579f2b, type: 3}
+  m_Name: ThirdAttackDamageUpgrades
+  m_EditorClassIdentifier: 
+  id: 0
+  displayName: AttackDamage
+  maxLevel: 5
+  perLevelCost: c80000009001000020030000dc050000b80b0000
+  perLevelBonus:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1

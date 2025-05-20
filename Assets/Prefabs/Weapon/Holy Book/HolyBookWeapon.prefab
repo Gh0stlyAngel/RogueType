@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4259870205660689856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 199199330057385699}
+  - component: {fileID: 8110479220669865157}
+  m_Layer: 0
+  m_Name: HolyBookWeapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &199199330057385699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4259870205660689856}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8110479220669865157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4259870205660689856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 004cf4fb09d2fbf41bd823624e11f325, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: 21300000, guid: 64bb4686584b34243ab8bf6b7f5d2a5f, type: 3}
+  ItemCardActive: {fileID: 21300000, guid: 8d91f7fb28e3fdf499305a69aeafeebf, type: 3}
+  ItemCardIdle: {fileID: 21300000, guid: 50876dae987123b49add0be5e784e4a6, type: 3}
+  baseItemPrefab: {fileID: 4259870205660689856}
+  player: {fileID: 0}
+  CurrentLevel: 0
+  CurrentSlot: {fileID: 0}
+  maxLevel: 0
+  AtMaxLevel: 0
+  baseWeaponPrefab: {fileID: 4259870205660689856}
+  baseCharacter: {fileID: 0}
+  attackSound: {fileID: 0}
+  attackDelay: 0
+  damage: 0
+  pushOutDuration: 0
+  holyBook: {fileID: 7549179968314944006, guid: 0774fd871bda0064c8f698bd03bd3f9c,
+    type: 3}
+  lifetime: 0
+  amount: 0
+  speed: 0
+  radius: 0
+  dealDamageDelay: 0.75

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &493675483679884305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8137796661806854083}
+  - component: {fileID: 8706226462763124304}
+  m_Layer: 0
+  m_Name: PowerUpManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8137796661806854083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493675483679884305}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 636.8508, y: 542.2993, z: -10.302636}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8706226462763124304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493675483679884305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0922e7712c535d7439a7770d745a81cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upgradeConfigs:
+  - {fileID: 11400000, guid: 779b80816f3a1aa48b052ed707b6d9bd, type: 2}
+  - {fileID: 11400000, guid: 8ce7ac0745f211b48b1c503ddab18c1d, type: 2}
+  - {fileID: 11400000, guid: 53aebf19ca5522041a0d7030b309dd5f, type: 2}
+  - {fileID: 11400000, guid: 5e4ade51bb889c44ebab8651249a6850, type: 2}
+  - {fileID: 11400000, guid: f0e420e96c1b46b4cb6d4ab30a934738, type: 2}
+  - {fileID: 11400000, guid: b8e8fb6aaf29cef4db5efe1e10f46860, type: 2}
+  - {fileID: 11400000, guid: d2c6263f76d17b44fadf61ce41b5361a, type: 2}
+  progressBars:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  progressCostTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  maxLevelTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  levelUpButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  warriorUpgradeConfigs:
+  - {fileID: 11400000, guid: b536f50a614a5bd4bb721fcd9b8a68fd, type: 2}
+  - {fileID: 11400000, guid: 7e8584005a6119946be398bec20d65f5, type: 2}
+  - {fileID: 11400000, guid: 430004005a259a24da26323ff57eb918, type: 2}
+  reaperUpgradeConfigs:
+  - {fileID: 11400000, guid: 61acdd41171e1b049909647e93106a68, type: 2}
+  - {fileID: 11400000, guid: 96d90a514cb2507449219416ae58cd45, type: 2}
+  - {fileID: 11400000, guid: c7dd3c19b3fc06a44a279eaa1b94391b, type: 2}
+  thirdCharacterUpgradeConfigs:
+  - {fileID: 11400000, guid: 8afeb8c67984c474b854fe9dd1250d93, type: 2}
+  - {fileID: 11400000, guid: c9dd2d53dd6fc6241a94cd786cd76410, type: 2}
+  - {fileID: 11400000, guid: 8398e271e1ec99e4a945c21e6e52a1bc, type: 2}
+  personalPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  totalCoins: {fileID: 0}

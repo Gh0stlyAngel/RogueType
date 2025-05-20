@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5532590184849588540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5805395983178149019}
+  - component: {fileID: 2039374482835025629}
+  m_Layer: 0
+  m_Name: IceStaffWeapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5805395983178149019
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5532590184849588540}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2039374482835025629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5532590184849588540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5b6fe42aebc5e4ba92ed93398b9572, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: 21300000, guid: 32d944e7877796d48a8d5e199deb82bb, type: 3}
+  ItemCardActive: {fileID: 21300000, guid: 06d43bf5f73a37f4c82a2f4d75150011, type: 3}
+  ItemCardIdle: {fileID: 21300000, guid: 7dc49e43d61ce754687a6c00f4047e53, type: 3}
+  baseItemPrefab: {fileID: 5532590184849588540}
+  player: {fileID: 0}
+  CurrentLevel: 0
+  CurrentSlot: {fileID: 0}
+  maxLevel: 0
+  baseWeaponPrefab: {fileID: 5532590184849588540}
+  baseCharacter: {fileID: 0}
+  attackDelay: 0
+  damage: 0
+  pushOutDuration: 0
+  speed: 0
+  duration: 0
+  iceStaffProjectile: {fileID: 957307356600204475, guid: c0d3d64401dbf7b43801569b7d18524a,
+    type: 3}
+  angle: 0
