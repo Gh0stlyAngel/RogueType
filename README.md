@@ -1,27 +1,74 @@
-## RogueType
+# RogueType
 
-Процедурная экшен-игра вдохновленная "Vampire Survivors": выбирай персонажа, убивай орды врагов, собирай опыт, выбирай и улучшай предметы, выживай как можно дольше и прокачивайся между сессиями.
+Procedural action roguelike inspired by **Vampire Survivors**.
 
-## Управление
-
-| Действие       | Клавиши         |
-|----------------|-----------------|
-| Движение       | WASD / Стрелки  |
-| Атака          | Spacebar        |
-| Меню паузы     | Esc             |
-| Умение         | E               |
-
-## 🕹 Как запустить
-
-Скачай последнюю сборку отсюда:
-➡ [Загрузить билд (Windows)](https://github.com/Gh0stlyAngel/RogueType/releases)
-
-Распакуй архив и запусти `RogueLike - Prototype.exe`
+Fight through waves of enemies, level up during the run, unlock permanent upgrades, and survive as long as possible.
 
 ---
 
 ## 🎮 Core Gameplay
 
-![Gameplay](Assets/Images/Screenshots/Gameplay8.png)
+![Gameplay](Assets/Images/Screenshots/Gameplay6.png)
 
 ---
+
+## 🧙 Character Selection
+
+Choose between playable characters with different stats and playstyles.
+
+![Characters](Assets/Images/Screenshots/CharSelection.png)
+
+---
+
+## ⬆ Meta Progression System
+
+Permanent upgrades available between sessions.
+
+![PowerUps](Assets/Images/Screenshots/PowerUps.png)
+
+---
+
+## 🎁 In-Run Upgrade Selection
+
+Level up during the run and choose between randomized upgrades.
+
+![Upgrade](Assets/Images/Screenshots/ItemSelection.png)
+
+---
+
+## 📊 Match Results
+
+Post-run statistics and enemy breakdown.
+
+![Results](Assets/Images/Screenshots/Results.png)
+
+---
+
+## 🕹 Controls
+
+| Action     | Key |
+|------------|-----|
+| Move       | WASD / Arrow Keys |
+| Attack     | Space |
+| Skill      | E |
+| Pause      | Esc |
+
+---
+
+## 🛠 Tech Overview
+
+- Unity
+- C#
+- Custom FSM architecture
+- Modular enemy system
+- Procedural wave spawning
+- Upgrade & progression system
+- Persistent player upgrades
+
+---
+
+## ▶ Download
+
+[Download Windows Build](https://github.com/Gh0stlyAngel/RogueType/releases)
+
+Unzip and launch: `RogueLike - Prototype.exe`
