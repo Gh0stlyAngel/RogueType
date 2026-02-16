@@ -8,7 +8,9 @@ Fight through waves of enemies, level up during the run, unlock permanent upgrad
 
 ## 🎮 Core Gameplay
 
+![Gameplay](Assets/Images/Screenshots/Gameplay3.png)
 ![Gameplay](Assets/Images/Screenshots/Gameplay6.png)
+![Gameplay](Assets/Images/Screenshots/Gameplay9.png)
 
 ---
 
