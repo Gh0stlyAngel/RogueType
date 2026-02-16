@@ -17,3 +17,11 @@
 ➡ [Загрузить билд (Windows)](https://github.com/Gh0stlyAngel/RogueType/releases)
 
 Распакуй архив и запусти `RogueLike - Prototype.exe`
+
+---
+
+## 🎮 Core Gameplay
+
+![Gameplay](Assets/Images/Screenshots/Gameplay8.png)
+
+---
